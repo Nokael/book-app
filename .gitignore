@@ -2,7 +2,7 @@
 node_modules/
 
 # Ignore frontend directory
-/frontend
+
 
 # Ignore environment variables file
 .env

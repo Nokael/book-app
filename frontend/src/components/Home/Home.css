@@ -1,0 +1,47 @@
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Home {
+  text-align: center;
+}
+
+.HeroBanner {
+  background-image: url("../../assets/img/inclinedbook.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgba(94, 69, 184, 0.3);
+  padding: 100px 0;
+}
+
+.HeroBanner h {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.HeroBanner p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+  
+.ButtonContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.Button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: rebeccapurple;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+
+.Button:hover {
+  background-color: brown;
+}
